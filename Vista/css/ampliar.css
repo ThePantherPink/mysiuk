@@ -1,0 +1,23 @@
+<style type="text/css">
+/* la imagen en su forma normal */
+#ampliar img{
+-webkit-transform:scale(1); /*Webkit: Scale down image to 0.8x original size*/
+-moz-transform:scale(1); /*Mozilla scale version*/
+-o-transform:scale(1); /*Opera scale version*/
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+opacity: 0.5;
+}
+/* al pasar el cursor por encima SE AMPLIA*/
+#ampliar img:hover{
+-webkit-transform:scale(4); /*Webkit:Modificamos tamaño a escala*/
+-moz-transform:scale(4); /*Mozilla:Modificamos tamaño a escala*/
+-o-transform:scale(4); /*Opera:Modificamos tamaño a escala*/
+-webkit-transition-duration: 0.1s; /*Webkit:Duración de la animación*/
+-moz-transition-duration: 0.1s; /*Mozilla:Duración de la animació*/
+-o-transition-duration: 0.1s; /*Opera:Duración de la animació*/
+opacity: 1;
+}
+</style>
+
