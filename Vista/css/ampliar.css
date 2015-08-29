@@ -10,7 +10,7 @@
 opacity: 0.5;
 }
 /* al pasar el cursor por encima SE AMPLIA*/
-#ampliar img:hover{
+#ampliar img:active{
 -webkit-transform:scale(4); /*Webkit:Modificamos tamaño a escala*/
 -moz-transform:scale(4); /*Mozilla:Modificamos tamaño a escala*/
 -o-transform:scale(4); /*Opera:Modificamos tamaño a escala*/
